@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+}
+h2{
+    text-align:center;
+    color:white;
+}
+h1{
+    color:white;
+}
+h3{
+    color:white;
+}
+p{
+    color:white;
+}
+#navbar{
+    position:fixed;
+    z-index:1;
+
+}
+
+.video{
+    padding-bottom:0px;
+    padding-top:0px;
+    position: relative;
+    z-index:0;
+    position:relative;
+
+}
+#about{
+    
+    padding-top:0px;
+    padding-bottom:0px;
+    text-align: center;
+    padding:20% 20%;
+    height: 100vh;
+    background-color: rgb(2, 3, 28);
+        color: white;
+    
+}
+/* .about{
+    height:100vh;
+} */
+#section{
+    padding:5%;
+    height:100vh;
+    
+}
+#events{
+    background-color: rgb(2, 3, 28);
+
+    color: white;
+    position: relative;
+}
+.events{
+    padding:10px 10px;
+}
+.events-heading{
+    color:white;
+    
+}
+
+.timer{
+    position:relative;;
+    text-align:center;
+    z-index:2;
+    
+}
+.mobile_video{
+    display:none;
+}
+
+#events {
+    
+    height:100vh;
+    text-align:center;
+  }
+  .events-heading {
+    color:white;
+  }
+  .event-title {
+    font-size: 1.5rem;
+    color:white;
+    padding: 7% 15%;
+  }
+  
+  .event-box {
+    padding: 4.5%;
+  }
+
+#tech-event-cards{
+    text-align:center;
+    padding:5%;
+    background-color: rgb(2, 3, 28);
+    /* background-color: hsl(216, 53%, 9%); */
+   
+}
+#non-tech-event-cards{
+    text-align:center;
+    padding:5%;
+    background-color: rgb(2, 3, 28);
+    
+}
+.card{
+    top:5%;
+    left:5%;
+    bottom:5%;
+    right:5%;
+    height: 300px;
+    width:200px;
+}
+.row{
+    align-items:center;
+
+}
+.col{
+    align-items:center;
+    padding-bottom:5%;
+}
+#sponsors{
+    height:50vh;
+    /* background-color: rgb(2, 3, 28); */
+}
+.carousel-item{
+    align-items:center;
+    padding-top:10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* #footer{
+    background-color: rgb(2, 3, 28); */
+#footer{
+    text-align:center;
+    background-color:rgb(2, 3, 28);
+    position:absolute;
+    width: 100%;
+}
+.social-icon {
+    margin: 20px 10px;
+    height: 20px;
+    }
+@media (max-width: 1028px){
+    .desktop_video{
+        display:none;
+    }
+    .mobile_video{
+        display:block;
+    }
+}

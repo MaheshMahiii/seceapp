@@ -1,6 +1,7 @@
 export default {
     "events" : [
         {
+            "type" : "tech",
             "name" : "Paper Presentation",
             "about" : "Participants should present their ideas within the given time. The presentation should be in the form of Microsoft PowerPoint.",
             "overview" : `•	Registrations must be made before the event.
@@ -15,6 +16,22 @@ export default {
             "Contact" : ""
         },
         {
+            "type" : "tech",
+            "name" : "Codewar",
+            "about" : "Participants should present their ideas within the given time. The presentation should be in the form of Microsoft PowerPoint.",
+            "overview" : `•	Registrations must be made before the event.
+            •	Each participant will be given 5 to 6 minutes to present their idea within 15-20 slides.
+            •	Maximum size of a team is 2 members.
+            •	Participants are requested to have a hardcopy(printout) of the presentation and a copy in their mail.
+            •	The Decision of Judges will be final.`,
+            "requiremnts" : ``,
+            "venue" : "TRP conference hall or Seminar Hall",
+            "duration" : "2-3 periods (can be more or less depending on the no. of teams participating)",
+            "registrationLink" : "",
+            "Contact" : ""
+        },
+        {
+            "type" : "tech",
             "name" : "Quiz",
             "about" : "This is a question answer session in electronic and communication domain and in general with multiple rounds in it.",
             "overview" : `Registrations should be made initially
@@ -53,7 +70,7 @@ export default {
 
         },
         {
-          
+            "type" : "tech",
     "name" : "SPOT CIRCUIT DESIGN",
     "about" : "Participants will be asked to design circuit for the given problem statement both in online and offline mode ",
     "overview" : `1) participants enrolment
@@ -89,6 +106,7 @@ export default {
     "Contact" : ""
     },
     {
+        "type" : "tech",
         "name" : "PROBLEM SOLVING",
         "about" : "",
         "overview" : `•	Registration must be made initially.
@@ -123,6 +141,7 @@ export default {
     
     },
     {
+        "type" : "tech",
         "name" : "INVENTORY SHOWCASE",
         "about" : "Participants should showcase their project to students and judges. ",
         "overview" : `•	Registrations must be made before the event.
@@ -139,7 +158,8 @@ export default {
     
     },
     {
-        "name" : "CONNECTION",
+        "type" : "non-tech",
+        "name" : "CONNECTIONS",
         "about" : "This is a connecting game where pictures are shown on ppt and we end up in finding a phrase or word using the pictures.",
         "overview" : ``,
         "rules and regulations " : `•	Two per team.
@@ -186,6 +206,7 @@ export default {
     
     },
     {
+        "type" : "non-tech",
         "name" : "FUTSAL",
         "about" : "This is a 5v5 football game. There are five players on the field on each team, one of whom is the goalkeeper. The maximum number of substitutes allowed is 2 with unlimited substitutions during the match.",
         "overview" : `
@@ -235,6 +256,7 @@ export default {
     
     },
     {
+        "type" : "non-tech",
         "name" : "BOX CRICKET",
         "about" : "The street cricket vibe will be reintroduced in a very innovative manner. The rules will be same as the street rules.",
         "overview" : `
@@ -267,7 +289,8 @@ export default {
     
     },
     {
-        "name" : "Adapt tunes ",
+        "type" : "non-tech",
+        "name" : "Adaptunes ",
         "about" : "Let's give a break from the anticipation of the Gramophone’s stylus, to tune itself for the tunes of the adapt tune. It is an event to showcase the moves in your mind that goes in the flow with the retro tunes.",
         "overview" : `
         •	Participates enrolment 
@@ -291,7 +314,8 @@ export default {
     
     },
     {
-        "name" : "Ad zap",
+        "type" : "non-tech",
+        "name" : "Adzap",
         "about" : "A product will be given to each team and they will be asked to convince the judges with a good ad and jingle to buy the product. Product description session will also be conducted.",
         "overview" : `
         •	Registrations will be opened.
@@ -325,6 +349,7 @@ export default {
     
     },
     {
+        "type" : "non-tech",
         "name" : " SHERLOCK HOLMES",
         "about" : "A Crime story will be given to the participants. Participants should find the criminal and how the crime would have taken place with the help of given clues and records.",
         "overview" : `•	Participates enrolment
@@ -386,10 +411,7 @@ export default {
         "duration" : "",
         "registrationLink" : "",
         "Contact" : ""
-    
     }
-
-
     ]
 }
 
